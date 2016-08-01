@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bck">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eimageButton1"
+        android:src="@drawable/e1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="69dp"
+        android:background="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eimageButton2"
+        android:src="@drawable/e2"
+        android:background="#000000"
+        android:layout_alignTop="@+id/eimageButton1"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eimageButton3"
+        android:src="@drawable/e3"
+        android:background="#000000"
+        android:layout_alignTop="@+id/eimageButton2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="44dp"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eimageButton4"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/e4"
+        android:layout_below="@+id/eimageButton1"
+        android:layout_alignStart="@+id/eimageButton1"
+        android:background="#000000"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eimageButton5"
+        android:src="@drawable/e5"
+        android:layout_alignTop="@+id/eimageButton4"
+        android:layout_alignStart="@+id/eimageButton2"
+        android:background="#000000"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eimageButton6"
+        android:src="@drawable/e6"
+        android:layout_alignTop="@+id/eimageButton5"
+        android:layout_alignStart="@+id/eimageButton3"
+        android:background="#000000"/>
+</RelativeLayout>

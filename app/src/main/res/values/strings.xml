@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LostEden</string>
+
+        <string-array name="heroselect">
+            <item>Human</item>
+            <item>Undead</item>
+            <item>Elf</item>
+            <item>Khajiit</item>
+            <item>Ork</item>
+        </string-array>
+
+</resources>
